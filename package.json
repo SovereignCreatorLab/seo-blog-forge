@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "build:ci": "next build --no-lint"
   },
   "dependencies": {
     "@aws-sdk/client-dynamodb": "^3.899.0",
